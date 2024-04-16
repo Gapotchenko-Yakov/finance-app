@@ -1,4 +1,4 @@
-import { Palette, PaletteColor } from "@mui/material/styles";
+import { Palette, PaletteColor, TypeBackground } from "@mui/material/styles";
 
 declare module "@mui/material/styles/createPalette" {
   interface PaletteColor {
@@ -7,5 +7,9 @@ declare module "@mui/material/styles/createPalette" {
 
   interface Palette {
     tertiary: PaletteColor;
+  }
+
+  interface TypeBackground {
+    light: string;
   }
 }

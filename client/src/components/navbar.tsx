@@ -4,7 +4,6 @@ import { Box, Typography, Button } from "@mui/material";
 import { useTheme } from "@mui/material";
 import FlexBetween from "./FlexBetween";
 import { Pix as PixIcon } from "@mui/icons-material";
-import { PaletteColor } from "@mui/material/styles/createPalette";
 
 type Props = object;
 
