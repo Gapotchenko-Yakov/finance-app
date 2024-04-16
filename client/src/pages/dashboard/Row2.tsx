@@ -1,7 +1,5 @@
 import DashboardBox from "@/components/DashboardBox";
 
-type Props = {};
-
 const Row2 = () => {
   return (
     <>

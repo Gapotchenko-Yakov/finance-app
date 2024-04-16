@@ -1,9 +1,10 @@
 import DashboardBox from "@/components/DashboardBox";
-import React from "react";
+import { useGetKpisQuery } from "@/state/api";
 
-type Props = {};
+const Row1 = () => {
+  const { data } = useGetKpisQuery();
+  console.log("🚀 ~ Row1 ~ data:", data);
 
-const Row1 = (props: Props) => {
   return (
     <>
       <DashboardBox gridArea="a"></DashboardBox>
